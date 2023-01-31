@@ -5,8 +5,8 @@ const HeaderContent = (props) => {
 
   return (
     <headerContent
-      class="flex h-screen justify-center items-center overflow-hidden
-        bg-header-2 bg-gradient-to-b from-theme1-gradient-start to-theme1-gradient-end "
+      class="flex h-screen justify-center items-center overflow-hidden relative
+        bg-header-2 bg-gradient-to-b from-theme1-gradient-start to-theme1-gradient-end max-h-[600px] min-h-[500px]"
     >
       {/* <RandomAnimation></RandomAnimation> */}
 

@@ -1,6 +1,7 @@
 import './App.css';
 import Lead from "./components/lead";
 import Header from "./components/header";
+import AboutSection from './components/about';
 import React from "react";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <div className="App relative z-10">
           <Header></Header>
           <Lead></Lead>
+          <AboutSection></AboutSection>
         </div>
       </div>
     </React.Fragment>
